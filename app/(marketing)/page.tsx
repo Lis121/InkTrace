@@ -70,3 +70,5 @@ export default function LandingPage() {
         </DragonProvider>
     )
 }
+
+export const runtime = 'edge'

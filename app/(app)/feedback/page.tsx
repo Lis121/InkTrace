@@ -165,3 +165,5 @@ export default function FeedbackPage() {
         </div>
     )
 }
+
+export const runtime = 'edge'

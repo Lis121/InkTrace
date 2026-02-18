@@ -118,3 +118,5 @@ export default function LoginForm() {
         </div>
     )
 }
+
+export const runtime = 'edge'

@@ -159,3 +159,5 @@ export default async function CustomerProfilePage({ params }: { params: Promise<
         </div>
     )
 }
+
+export const runtime = 'edge'

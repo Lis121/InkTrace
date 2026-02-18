@@ -46,3 +46,5 @@ export default async function IntakePage({ params, searchParams }: PageProps) {
         </div>
     )
 }
+
+export const runtime = 'edge'

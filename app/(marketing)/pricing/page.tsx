@@ -6,3 +6,5 @@ export default function PricingPage() {
         </div>
     )
 }
+
+export const runtime = 'edge'

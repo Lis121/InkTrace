@@ -76,3 +76,5 @@ export default async function CustomersPage() {
         </div>
     )
 }
+
+export const runtime = 'edge'

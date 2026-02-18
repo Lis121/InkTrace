@@ -98,3 +98,5 @@ export default async function IntakeDashboardPage() {
 
 // Small Client Component for QR Code to access window.location
 import { KioskQRCode } from "@/components/intake/kiosk-qr-code"
+
+export const runtime = 'edge'

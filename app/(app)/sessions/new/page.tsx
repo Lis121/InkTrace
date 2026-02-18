@@ -75,3 +75,5 @@ export default async function NewSessionPage({ searchParams }: PageProps) {
         </div>
     )
 }
+
+export const runtime = 'edge'

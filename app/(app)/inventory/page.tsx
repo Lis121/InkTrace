@@ -48,3 +48,5 @@ export default async function InventoryPage() {
         </div>
     )
 }
+
+export const runtime = 'edge'

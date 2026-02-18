@@ -25,3 +25,5 @@ export default async function ReportsPage() {
 
     return <ReportsPageClient studioId={profile.studio_id} />
 }
+
+export const runtime = 'edge'

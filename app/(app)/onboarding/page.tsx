@@ -148,3 +148,5 @@ export default function OnboardingPage() {
         </div>
     )
 }
+
+export const runtime = 'edge'
