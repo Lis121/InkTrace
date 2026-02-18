@@ -46,16 +46,9 @@ const Navbar = () => {
 
                 {/* Desktop CTA */}
                 <div className="hidden lg:flex items-center gap-4">
-                    <Link href="/login">
-                        <Button variant="ghost" size="sm" className="text-sm font-medium">
-                            Logga in
-                        </Button>
-                    </Link>
-                    <Link href="/signup">
-                        <Button size="sm" className="bg-black text-white hover:bg-zinc-800 text-sm font-medium">
-                            Kom igång
-                        </Button>
-                    </Link>
+                    <Button size="sm" className="bg-black text-white hover:bg-zinc-800 text-sm font-medium cursor-pointer">
+                        Kom igång
+                    </Button>
                 </div>
 
                 {/* Mobile Menu */}

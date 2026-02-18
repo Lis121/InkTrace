@@ -16,11 +16,9 @@ export default function InkCTA() {
                         Beskriv din idé idag och låt oss matcha dig med de bästa studiosen i ditt område. Det tar bara två minuter, är helt kostnadsfritt och du binder dig inte till något.
                     </p>
                     <div className="flex gap-4">
-                        <Link href="/signup">
-                            <Button size="lg" className="bg-white text-black hover:bg-neutral-200">
-                                Få prisförslag nu
-                            </Button>
-                        </Link>
+                        <Button size="lg" className="bg-white text-black hover:bg-neutral-200 cursor-pointer">
+                            Få prisförslag nu
+                        </Button>
                     </div>
                 </div>
             </div>

@@ -30,11 +30,11 @@ export default function LandingPage() {
                             Vi matchar din vision med Sveriges mest passionerade tatuerare. Berätta för oss vad du vill göra, så hjälper vi dig att hitta rätt artist och få ett prisförslag – helt kostnadsfritt.
                         </p>
                         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 md:gap-6 pointer-events-auto w-full sm:w-auto">
-                            <Link href="/signup" className="w-full sm:w-auto">
-                                <Button size="lg" className="h-12 md:h-14 px-8 md:px-10 text-base md:text-lg font-semibold bg-white text-black hover:bg-zinc-200 w-full sm:w-auto">
+                            <div className="w-full sm:w-auto">
+                                <Button size="lg" className="h-12 md:h-14 px-8 md:px-10 text-base md:text-lg font-semibold bg-white text-black hover:bg-zinc-200 w-full sm:w-auto cursor-pointer">
                                     Hitta min tatuerare
                                 </Button>
-                            </Link>
+                            </div>
                             <Link href="#features" className="w-full sm:w-auto">
                                 <Button variant="outline" size="lg" className="h-12 md:h-14 px-8 md:px-10 text-base md:text-lg font-semibold border-white text-white hover:bg-white hover:text-black bg-transparent w-full sm:w-auto">
                                     Se hur det funkar
